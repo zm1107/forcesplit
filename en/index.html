@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" type="image/png" sizes="128x128" href="/favicon.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta name="description" content="ForceSplit — split XLSX / XLS / CSV data files into multiple files by business rules, no technical skills needed (Windows). 7 splitting rules: field value, administrative region, date, numeric range, prefix/keyword, row count, phone region; preview before splitting, row-count verification, fully local processing with zero uploads.">
+<meta property="og:title" content="ForceSplit — Split Data Files by Field Rules">
+<meta property="og:description" content="Split XLSX / XLS / CSV into multiple files by business rules · 7 splitting rules · preview before splitting · row-count verification · fully local, zero uploads.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://forcesplit.weibaba.fun/en/">
+<title>ForceSplit — Split Data Files by Field Rules | XLSX / XLS / CSV · 7 Rules</title>
+<link rel="canonical" href="https://forcesplit.weibaba.fun/en/">
+<link rel="alternate" hreflang="zh-CN" href="https://forcesplit.weibaba.fun/">
+<link rel="alternate" hreflang="en" href="https://forcesplit.weibaba.fun/en/">
+<link rel="alternate" hreflang="x-default" href="https://forcesplit.weibaba.fun/">
+<meta property="og:image" content="https://forcesplit.weibaba.fun/assets/img/logo.png">
+<link rel="stylesheet" href="/assets/style.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"SoftwareApplication",
+ "name":"ForceSplit","operatingSystem":"Windows 10, Windows 11",
+ "applicationCategory":"UtilitiesApplication",
+ "url":"https://forcesplit.weibaba.fun/","softwareVersion":"0.9.0",
+ "inLanguage":["zh-CN","en"],
+ "description":"Split XLSX / XLS / CSV data files into multiple files by field-based business rules, fully processed locally on Windows."}
+</script>
+</head>
+<body>
+
+<nav>
+  <div class="container nav-inner">
+    <a class="brand" href="/en/"><img src="/assets/img/logo.png" alt="ForceSplit">Force<span class="dot">Split</span></a>
+    <div class="nav-links">
+      <a class="hide-sm" href="#rules">Rules</a>
+      <a class="hide-sm" href="#features">Features</a>
+      <a class="hide-sm" href="#data">Built-in Data</a>
+      <a class="hide-sm" href="#local">Local First</a>
+      <span class="lang-switch"><a href="/" hreflang="zh-CN" lang="zh-CN">中文</a> · <b>English</b></span>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="container">
+    <img class="hero-logo" src="/assets/img/logo.png" alt="ForceSplit">
+    <h1>One big spreadsheet,<br>split into <span class="key">many</span> by rule.</h1>
+    <p class="pitch">ForceSplit — a data-file splitting tool for <b>XLSX / XLS / CSV</b>: turn one file into many by business rules, with <b>7 splitting rules</b> and a preview before anything is written.</p>
+    <p class="sub">Everything runs locally — zero uploads. Your data never leaves your computer.</p>
+    <div class="platform-pills">
+      <span class="pill">✔ Windows 10 / 11</span>
+      <span class="pill">✔ XLSX / XLS / CSV</span>
+      <span class="pill">✔ 7 splitting rules</span>
+      <span class="pill">✔ 200,000 rows per sheet</span>
+      <span class="pill">✔ Public Beta v0.9.0</span>
+    </div>
+    <div class="btn-row">
+      <a class="btn btn-primary" href="https://apps.microsoft.com/detail/9MXMRG84K642">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+        Download from Microsoft Store
+      </a>
+      <a class="btn btn-ghost" href="#rules">See the 7 rules</a>
+    </div>
+  </div>
+</header>
+
+<main class="container">
+
+  <!-- ============ Rules ============ -->
+  <section class="block" id="rules">
+    <h2 class="title">7 splitting rules for everyday business</h2>
+    <p class="lead">Per account, by region, by date, by range… pick a rule and let ForceSplit do the rest.</p>
+    <div class="rule-grid">
+      <div class="rule">
+        <div class="ico c1"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></div>
+        <h3>By field value (per account)</h3>
+        <p>Rows sharing the same field value go into the same file — one file per customer, unit, or account, nothing mixed.</p>
+      </div>
+      <div class="rule">
+        <div class="ico c2"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="1 6 8 3 16 6 23 3 23 18 16 21 8 18 1 21"/><line x1="8" y1="3" x2="8" y2="18"/><line x1="16" y1="6" x2="16" y2="21"/></svg></div>
+        <h3>By administrative region</h3>
+        <p>Based on ID numbers, taxpayer identification numbers, or region codes: split by province / city / county, into a flat or nested folder tree.</p>
+      </div>
+      <div class="rule">
+        <div class="ico c3"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></div>
+        <h3>By date</h3>
+        <p>Group records by year, quarter, month, week, or day — periodic data files itself.</p>
+      </div>
+      <div class="rule">
+        <div class="ico c4"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="20" x2="12" y2="10"/><line x1="18" y1="20" x2="18" y2="4"/><line x1="6" y1="20" x2="6" y2="16"/></svg></div>
+        <h3>By numeric range</h3>
+        <p>Segment numeric columns such as amounts and quantities into ranges.</p>
+      </div>
+      <div class="rule">
+        <div class="ico c1"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.83z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg></div>
+        <h3>By prefix / keyword</h3>
+        <p>Group rows by text prefix or contained keywords — handy for codes and numbered records.</p>
+      </div>
+      <div class="rule">
+        <div class="ico c2"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg></div>
+        <h3>By row count</h3>
+        <p>Cut a big sheet into fixed-size files for easy batching and distribution.</p>
+      </div>
+      <div class="rule">
+        <div class="ico c3"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg></div>
+        <h3>By phone number region</h3>
+        <p>Detect the province / city and carrier behind each phone number, and file records by region.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ Features ============ -->
+  <section class="block" id="features">
+    <h2 class="title">Built to split it right</h2>
+    <p class="lead">More than cutting files: preview before the split, reconcile after it, and slim down the output.</p>
+    <div class="feat-grid">
+      <div class="feat">
+        <div class="ico c1"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg></div>
+        <h3>Preview before splitting</h3>
+        <p>Preview the split and preprocessing, adjust the rules freely, and only write files when you're satisfied.</p>
+      </div>
+      <div class="feat">
+        <div class="ico c2"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v18"/><path d="M5 7l7-4 7 4"/><path d="M3 13l4-4 4 4-4 4-4-4z"/><path d="M13 13l4-4 4 4-4 4-4-4z"/></svg></div>
+        <h3>Row-count conservation</h3>
+        <p>Total rows are verified before and after the split — nothing lost, nothing duplicated.</p>
+      </div>
+      <div class="feat">
+        <div class="ico c3"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg></div>
+        <h3>Output field filtering</h3>
+        <p>Every output file keeps only the fields you need — nothing extra goes out.</p>
+      </div>
+      <div class="feat">
+        <div class="ico c4"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 4 23 10 17 10"/><path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"/></svg></div>
+        <h3>Reusable split plans</h3>
+        <p>Save frequently used rules as plans and apply them to the next file in one click.</p>
+      </div>
+      <div class="feat">
+        <div class="ico c1"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18"/><path d="M3 15h18"/><path d="M9 3v18"/><path d="M15 3v18"/></svg></div>
+        <h3>200,000 rows per sheet</h3>
+        <p>Up to 200,000 rows per worksheet; overflow continues automatically on a new sheet.</p>
+      </div>
+      <div class="feat">
+        <div class="ico c2"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+        <h3>Fully local processing</h3>
+        <p>Zero uploads, zero network access — privacy isn't a promise, it's the architecture.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ Built-in data ============ -->
+  <section class="block" id="data">
+    <h2 class="title">Built-in reference data, ready out of the box</h2>
+    <p class="lead">Administrative divisions, phone number prefixes and more ship with the app — no lookups, no network, manageable inside the app.</p>
+    <div class="stat-cards">
+      <div class="stat"><b>8</b><span>built-in datasets, all manageable inside the app</span></div>
+      <div class="stat"><b>2023 edition</b><span>administrative-division data for province / city / county splits</span></div>
+      <div class="stat"><b>490,000</b><span>phone number prefixes for out-of-the-box region lookup</span></div>
+    </div>
+    <p class="lead" style="margin-bottom:0">* All built-in datasets can be viewed and edited inside the app.</p>
+  </section>
+
+  <!-- ============ Local first ============ -->
+  <section class="block" id="local">
+    <h2 class="title">Your data never leaves your computer</h2>
+    <p class="lead">You're splitting business data — local processing isn't a slogan, it's how the product is built.</p>
+    <div class="local-box">
+      <h3>ForceSplit processes everything locally</h3>
+      <p>Splitting happens entirely on your machine and no files are uploaded. Only when you click the website, privacy, or download links inside the app does it open your system browser.</p>
+      <ul>
+        <li>Splitting runs locally — data files are never uploaded</li>
+        <li>No network requests, no telemetry, no ads</li>
+        <li>Settings and split plans stay in your local user directory</li>
+      </ul>
+      <div class="btn-row">
+        <a class="btn btn-primary" href="https://apps.microsoft.com/detail/9MXMRG84K642">Get Public Beta v0.9.0</a>
+        <a class="btn btn-ghost" style="border-color:#bcd6c2;color:var(--accent)" href="/privacy/">Read the Privacy Policy</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ Sponsor ============ -->
+  <div class="sponsor">
+    <div class="sponsor-text">
+      <h3>Finding it handy? Buy the developer a coffee<button class="coffee-btn" type="button" aria-label="WeChat QR code" title="Tap to say thanks" onclick="var m=document.getElementById('qr-modal');m.style.display=(m.style.display==='flex')?'none':'flex';">☕</button></h3>
+      <p>If ForceSplit has helped you, a coffee keeps the updates coming. Donations unlock no features.</p>
+    </div>
+  </div>
+
+  <div id="qr-modal" class="qr-modal" onclick="this.style.display='none'">
+    <div class="qr-card" onclick="event.stopPropagation()">
+      <img src="/assets/img/donate_qr.jpg" alt="WeChat QR code">
+      <span>Scan with WeChat · buy the developer a coffee</span>
+      <button type="button" onclick="document.getElementById('qr-modal').style.display='none'">✕</button>
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  <div class="container">
+    <div class="cols">
+      <div style="max-width:320px">
+        <h4>ForceSplit</h4>
+        <p>A data-file splitting tool for XLSX / XLS / CSV — turn one file into many by business rules, no technical skills needed.</p>
+      </div>
+      <div>
+        <h4>Product</h4>
+        <ul>
+          <li><a href="#rules">Splitting rules</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#data">Built-in data</a></li>
+          <li><a href="https://apps.microsoft.com/detail/9MXMRG84K642">Microsoft Store</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Support</h4>
+        <ul>
+          <li>Email: <a href="mailto:forcesplit@weibaba.fun">forcesplit@weibaba.fun</a></li>
+          <li>Public Beta v0.9.0 (September 26, 2026)</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="/privacy/">Privacy Policy / 隐私政策</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="legal">© 2026 Weibaba · ForceSplit · This site is fully static and collects no data</p>
+  </div>
+</footer>
+
+</body>
+</html>
