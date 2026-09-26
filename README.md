@@ -46,7 +46,7 @@ ForceSplit **全程在本地处理数据**：无网络请求、无遥测、无�
 
 ## 反馈与支持
 
-- 📧 反馈邮箱：[forcesplit@weibaba.fun](mailto:forcesplit@weibaba.fun)
+- 📧 反馈邮箱：[feedback@weibaba.fun](mailto:feedback@weibaba.fun)
 - 🏪 下载与版本信息：[微软商店页面](https://apps.microsoft.com/detail/9MXMRG84K642)
 
 ## 关于本仓库

@@ -14,7 +14,7 @@
   外链 CSS/JS）、无 Cookie、无表单、无服务端；所有资源本地引用。
   仓库内不得出现用户数据、操作日志、凭据或本地路径。
 - **下载入口**：微软商店 `https://apps.microsoft.com/detail/9MXMRG84K642`（唯一权威渠道）。
-- **反馈邮箱**：`forcesplit@weibaba.fun`（全局第 12 条默认口径）。
+- **反馈邮箱**：`feedback@weibaba.fun`（全局第 12 条默认口径）。
 - **产品口径来源**（权威，禁止编造）：ForceSplit 应用仓库。当前版本为公测版 v0.9.0（2026-09-26）。
 
 ## 2. 品牌配色（取自应用仓库图标 store/ico/app_icon.png，像素取色）
@@ -73,7 +73,7 @@ README.md AGENTS.md docs/site-design.md .gitignore
 - **隐私政策 `/privacy/`**：以应用仓库 PRIVACY.md 为源、不增删事实，措辞保守不扩。
   收录事实仅限：本地处理全部数据；无网络请求、无遥测、无广告；应用内除点击官网/隐私/下载链接
   （调用系统浏览器）外不访问网络；设置与方案存储于本机用户目录；内置基础数据可编辑；
-  联系方式 forcesplit@weibaba.fun。生效日期 2026-09-26。
+  联系方式 feedback@weibaba.fun。生效日期 2026-09-26。
 - **赞助区**（rules/website.md 15.3 强制）：标题「拆得顺手？请作者喝杯咖啡」+ 行尾跳动 ☕ 按钮
   （`animation: coffee-bounce 2s ease-in-out infinite`），点击弹收款码 fixed 模态，点空白关闭；
   英文版 "Buy the developer a coffee ☕"。
@@ -87,3 +87,4 @@ README.md AGENTS.md docs/site-design.md .gitignore
 | 版本 | 日期 | 说明 |
 |---|---|---|
 | v0.9.0 | 2026-09-26 | 初版：中文主站、英文版、隐私政策（中英同页）、全站样式、图像资产派生、robots/sitemap/_headers/security.txt、README 与 AGENTS；对应公测版 v0.9.0 |
+| v0.9.1 | 2026-09-26 | 反馈邮箱统一为 feedback@weibaba.fun（全局规范第 12 条修订），全站同步 |
