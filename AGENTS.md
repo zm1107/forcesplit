@@ -4,7 +4,7 @@
 
 - **提交信息只写版本号**（如 `v0.9.0`），不得包含改动说明、开发过程或任何操作细节；
   改动内容记录在本仓库 `docs/site-design.md` 的版本表中，不进提交信息。
-- Git 身份固定使用产品身份：`ForceSplit <forcesplit@weibaba.fun>`（仓库级配置，勿改回个人身份）。
+- Git 身份固定使用产品身份：`ForceSplit <feedback@weibaba.fun>`（仓库级配置，勿改回个人身份）。
 - 生产分支为 `main`（仓库根即站点根，Cloudflare Pages 自 `main` 发布）。
 
 ## 站点红线

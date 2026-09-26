@@ -88,3 +88,4 @@ README.md AGENTS.md docs/site-design.md .gitignore
 |---|---|---|
 | v0.9.0 | 2026-09-26 | 初版：中文主站、英文版、隐私政策（中英同页）、全站样式、图像资产派生、robots/sitemap/_headers/security.txt、README 与 AGENTS；对应公测版 v0.9.0 |
 | v0.9.1 | 2026-09-26 | 反馈邮箱统一为 feedback@weibaba.fun（全局规范第 12 条修订），全站同步 |
+| v0.9.0（同版修订） | 2026-09-26 | 反馈邮箱按全局规则第 12 条统一 feedback@weibaba.fun（AGENTS.md 修正，页面/security.txt 原已符合） |
