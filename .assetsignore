@@ -7,3 +7,10 @@
 docs
 AGENTS.md
 README.md
+# 构建期生成物与 Node 工具链文件（不得作为静态资源公开）
+wrangler.jsonc
+wrangler.toml
+.dev.vars
+package.json
+package-lock.json
+node_modules

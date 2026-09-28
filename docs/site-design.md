@@ -90,3 +90,4 @@ README.md AGENTS.md docs/site-design.md .gitignore
 | v0.9.1 | 2026-09-26 | 反馈邮箱统一为 feedback@weibaba.fun（全局规范第 12 条修订），全站同步 |
 | v0.9.0（同版修订） | 2026-09-26 | 反馈邮箱按全局规则第 12 条统一 feedback@weibaba.fun（AGENTS.md 修正，页面/security.txt 原已符合） |
 | v0.9.2 | 2026-09-28 | 中文名「庖丁解表」与新标语全站启用（「千表万行，游刃解之」，中英同步，品牌与 SEO 元数据同改）；版本标注升 v0.9.2 对齐商店包；新增 `.assetsignore` 部署排除清单（排除 `.git`/`.wrangler`/`.gitignore`/`docs`/`AGENTS.md`/`README.md`），修复构建时仓库元数据被 Workers 静态资源误上传的问题 |
+| v0.9.2（同版修订） | 2026-09-28 | 排除清单补充构建期生成物与 Node 工具链文件（`wrangler.jsonc`/`wrangler.toml`/`.dev.vars`/`package.json`/`package-lock.json`/`node_modules`）：修复构建期自动生成的 `wrangler.jsonc` 被公开服务的问题（线上 `/wrangler.jsonc` 原返回 200，暴露 Worker 名与 assets 配置） |
