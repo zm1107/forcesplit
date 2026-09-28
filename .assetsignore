@@ -3,6 +3,7 @@
 .git
 .wrangler
 .gitignore
+.assetsignore
 docs
 AGENTS.md
 README.md

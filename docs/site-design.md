@@ -89,3 +89,4 @@ README.md AGENTS.md docs/site-design.md .gitignore
 | v0.9.0 | 2026-09-26 | 初版：中文主站、英文版、隐私政策（中英同页）、全站样式、图像资产派生、robots/sitemap/_headers/security.txt、README 与 AGENTS；对应公测版 v0.9.0 |
 | v0.9.1 | 2026-09-26 | 反馈邮箱统一为 feedback@weibaba.fun（全局规范第 12 条修订），全站同步 |
 | v0.9.0（同版修订） | 2026-09-26 | 反馈邮箱按全局规则第 12 条统一 feedback@weibaba.fun（AGENTS.md 修正，页面/security.txt 原已符合） |
+| v0.9.2 | 2026-09-28 | 中文名「庖丁解表」与新标语全站启用（「千表万行，游刃解之」，中英同步，品牌与 SEO 元数据同改）；版本标注升 v0.9.2 对齐商店包；新增 `.assetsignore` 部署排除清单（排除 `.git`/`.wrangler`/`.gitignore`/`docs`/`AGENTS.md`/`README.md`），修复构建时仓库元数据被 Workers 静态资源误上传的问题 |
