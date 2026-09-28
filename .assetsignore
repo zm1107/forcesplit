@@ -1,0 +1,8 @@
+# 站点部署排除清单（Cloudflare Workers 静态资源 / Pages 共用）
+# 仅保留网站运行必需文件；排除仓库元数据与内部文档
+.git
+.wrangler
+.gitignore
+docs
+AGENTS.md
+README.md
